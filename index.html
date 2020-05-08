@@ -1,280 +1,366 @@
-<!doctype html>
-<html class="no-js" lang="en">
-     <!-- 浏览器标题 -->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>美标</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>changkang</title>
 
-        <!-- CSS Dependencies -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/shards.min.css">
-        <link rel="stylesheet" href="css/shards-extras.min.css">
-    </head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
     
-    <body class="shards-landing-page--1">
-        
-      <!-- 头部介绍 -->
-      <div class="welcome d-flex justify-content-center flex-column">
-        <div class="container">
-          <!-- Navigation -->
-          <nav class="navbar navbar-expand-lg navbar-dark pt-4 px-0">
-            <a class="navbar-brand" href="#">
-              <img src="images/agency-landing/shards-logo-white.svg" class="mr-2" alt="Shards - Agency Landing Page">
-             
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#works">渠道</a>
-                </li>
-               
-                <li class="nav-item">
-                  <a class="nav-link" href="#services">简介</a>
-                </li>
-                  
-<!--
-                 <li class="nav-item">
-                  <a class="nav-link" href="app.html">APP</a>
-                </li>
--->
-                  
-              </ul>
+    
+<body class="single-page">
+    
+     <!--头部-->
+    <header class="site-header">
+        <div class="nav-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+                        <div class="site-branding d-flex align-items-center">
+                            <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/logo.png" alt="logo"></a>
+                        </div><!-- .site-branding -->
 
-             <!-- 社交地址 -->
-              <ul class="navbar-nav ml-auto">
-                   <li class="nav-item">
-                  <a class="nav-link" href="https://mp.weixin.qq.com/s/kvTKrhpmZm7RUUd2rSiM8Q"><i class="fa fa-weixin"></i></a>
-<!--
-                </li>
-                   <li class="nav-item">
-                  <a class="nav-link" href="https://www.jianshu.com/u/cb689db4391f"><i class="fa fa-wpforms"></i></a>
-                </li>
--->
-                <li class="nav-item">
-                  <a class="nav-link" href="https://weibo.com/u/2729907832?topnav=1&wvr=6&topsug=1"><i class="fa fa-weibo"></i></a>
-                </li>
-                
-             </ul>
-                
-            </div>
-          </nav>
-          <!-- / Navigation -->
-        </div> <!-- .container -->
+                        <nav class="site-navigation d-flex justify-content-end align-items-center">
+                            <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
+                                <li class="current-menu-item"><a href="index.html">Home</a></li>
+                                <li><a href="about.html">Product</a></li>
+                                <li><a href="services.html">certificate</a></li>
+                               
 
-        <!-- Inner Wrapper -->
-        <div class="inner-wrapper mt-auto mb-auto container">
-          <div class="row">
-            <div class="col-md-7">
-                <h1 class="welcome-heading display-4 text-white">MEIBIAO</h1>
-               <p class="text-white"> </p>
-                <p class="text-white">美标，享受生活的乐趣</p>
-                <h1 class="welcome-heading display-4 text-white">  
-               </h1>
-                <a href="#services" class="btn btn-lg btn-outline-white btn-pill align-self-center">简介</a>
-            </div>
-          </div>
-        </div>
-        <!-- / Inner Wrapper -->
-      </div>
-      <!-- / Welcome Section -->
+                                <li class="call-btn button gradient-bg mt-3 mt-md-0">
+                                    <a class="d-flex justify-content-center align-items-center" href="#"><img src="images/emergency-call.png">+86 139 8989 9787</a>
+                                </li>
+                            </ul>
+                        </nav><!-- .site-navigation -->
 
-      <!-- Our Services Section -->
-      <div id="services" class="our-services section py-4">
-        <h3 class="section-title text-center my-5">企业简介</h3>
-           <p class=" text-center " >
-               广东美标服饰实业有限公司创立于1979年<br/>
-               是以设计、生产、销售、服务为一体的时尚家居服品牌企业；自成立伊始，美标一直倾力于家居服为核心的产品发展战略<br/>
-               强势打造家居服品牌。并在北京、上海、南京、广州、深圳、杭州、宁波等地设有分公司<br/>
-               公司占地面积11万多平方米，分别在汕头及杭州设有大型的花园式区工业园服装生产基地<br/>
-               引进2000多套世界先进的生产设备，日产量可达数万套。<br/>
-              
-          </p>
-        <!-- Features -->
-        <div class="features py-4 mb-4">
-          <div class="container">
-            <div class="row">
-              <div class="feature py-4 col-md-6 d-flex">
-                <div class="icon text-primary mr-3"><i class="fa fa-support"></i></div>
-                <div class="px-4">
-                    <h5>1979年公司创立</h5>
-                    <p>创于峡山——中国家居服名镇</p>
-                </div>
-              </div>
-              <div class="feature py-4 col-md-6 d-flex">
-                <div class="icon text-primary mr-3"><i class="fa fa-support"></i></div>
-                <div class="px-4">
-                    <h5>1996年，兴办美标实业有限公司</h5>
-                    <p>1996年，公司在素有“丝绸之乡”美誉的浙江杭州独资兴办了杭州市美标实业有限公司</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="feature py-4 col-md-6 d-flex">
-                <div class="icon text-primary mr-3"><i class="fa fa-support"></i></div>
-                <div class="px-4">
-                    <h5>2001年，在香港成立了美标实业集团</h5>
-                    <p>2001年，“美标”在香港成立了美标实业集团（香港）公司，积极拓展海外市场，取得了较好的成效。</p>
-                </div>
-              </div>
-              <div class="feature py-4 col-md-6 d-flex">
-                <div class="icon text-primary mr-3"><i class="fa fa-support"></i></div>
-                <div class="px-4">
-                    <h5>2005年荣获“广东省著名商标”称号等殊荣</h5>
-                    <p>创立39年来，广东美标服饰实业有限公司一步一个脚印扎实前行，从一个家庭小作坊逐渐发展成为一家专业生产高级睡衣、针织内衣、休闲服的现代化企业。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- / Features -->
-      </div>
-      <!-- / Our Services Section -->
-
-     
-        <!-- Our Blog Section -->
-      <div id="works" class="blog section section-invert py-4">
-        <h3 class="section-title text-center m-5">网络渠道</h3>
+                        <div class="hamburger-menu d-lg-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- .hamburger-menu -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .nav-bar -->
 
         <div class="container">
-          <div class="py-4">
             <div class="row">
-              <div class="card-deck">
-                  
-              <div class="col-md-12 col-lg-4 ">
-                <div class="card mb-4">
-                  <img class="card-img-top" src="images/common/card-1.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h4 class="card-title">天猫旗舰店</h4>
-                    <p class="card-text">2009年就入住天猫旗舰店,积累较早</p>
-                      <div class="row mb-3">
-                    <div class="d-table " style="margin-left:15px">
-                        <span class="badge mr-3 badge-primary ">官方店铺</span>
-                        <span class="badge mr-3 badge-primary ">网络销售</span>
-                    </div>
-                </div>
-<!--                    <a class="btn btn-primary btn-pill" href="https://meibiao.tmall.com/shop/view_shop.htm?spm=a220m.1000858.1000725.3.d1e635f60Oqlm1&user_number_id=753117954&rn=b6776b2423858963f16b1c9fca8c571c">查看详情 &rarr;</a>-->
-                  </div>
-                </div>
-              </div>
+                <div class="col-12">
+                    <h1>KN95</h1>
+                     <h3>civil protective mask</h3>
+                    <div class="breadcrumbs">
+                        <ul class="d-flex flex-wrap align-items-center p-0 m-0">
+                         
+                            <li>.</li>
+                        </ul>
+                    </div> 
 
-              <div class="col-md-12 col-lg-4">
-                <div class="card mb-4">
-                  <img class="card-img-top" src="images/common/card-2.jpg" alt="Card image cap">
-                  <div class="card-body">
-                      <h4 class="card-title">京东旗舰店</h4>
-                    <p class="card-text">高品质定位，所以利润率较高</p>
-                      <div class="row mb-3">
-                    <div class="d-table " style="margin-left:15px">
-                        <span class="badge mr-3 badge-primary ">官方店铺</span>
-                        <span class="badge mr-3 badge-primary ">网络销售</span>
-                     </div>
                 </div>
-<!--                    <a class="btn btn-primary btn-pill" href="https://mall.jd.com/index-55876.html">查看详情 &rarr;</a>-->
-                  </div>
-                </div>
-              </div>
-
-             
-                  <div class="col-md-12 col-lg-4">
-                <div class="card mb-4">
-                  <img class="card-img-top" src="images/common/card-3.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h4 class="card-title">唯品会</h4>
-                    <p class="card-text">业务量较大，好评如潮</p>
-                      <div class="row mb-3">
-                    <div class="d-table " style="margin-left:15px">
-                        <span class="badge mr-3 badge-primary ">官方店铺</span>
-                        <span class="badge mr-3 badge-primary ">网络销售</span>
-                    </div>
-                </div>
-<!--                    <a class="btn btn-primary btn-pill" href="https://list.vip.com/brand.html?sn=10023400">查看详情 &rarr;</a>-->
-                  </div>
-                </div>
-              </div>
-                  
-            
-               <div class="col-md-12 col-lg-4" >
-                  
-                <div class="card mb-4">
-                  <img class="card-img-top" src="images/common/card-4.jpg" alt="Card image cap">
-                  <div class="card-body">
-                      <h4 class="card-title">考拉海淘</h4>
-                    <p class="card-text">刚刚开辟的新电商业务</p>
-                      <div class="row mb-3">
-                    <div class="d-table " style="margin-left:15px">
-                        <span class="badge mr-3 badge-primary badge-success">官方店铺</span>
-                        <span class="badge mr-3 badge-primary badge-success">网络销售</span>
-                     </div>
-                </div>
-<!--                    <a class="btn btn-primary btn-pill" href="https://search.kaola.com/brand/5340.html">查看详情 &rarr;</a>-->
-                  </div>
-                </div>
-                   
-              </div>
-                  
-
-                  
-                  
-                  
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-      <!-- / Our Blog Section -->
 
- 
-      <footer>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container">
-            <a class="navbar-brand" href="#">返回顶部</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-              
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">首页<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#works">作品</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#services">经历</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#services">关于</a>
-                </li>
-              </ul>
-            </div>
+        <img class="header-img" src="http://mb--test.oss-cn-hangzhou.aliyuncs.com/contact-bg.png" width="100%" alt="">
+    </header><!-- .site-header -->
 
-          </div>
-        </nav>
-          
-      </footer>
       
-        
-      <!-- JavaScript Dependencies -->
+    
+     <!--公司介绍-->
+    <div class="quality-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Company Profile</h2>
 
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p>We are meiRong Medical Technology (hangzhou) Co., Ltd., the company has dozens of locomotives, which can meet the needs of large orders</p>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <p>The masks produced are better than ordinary models, suitable for people in Europe and America</p>
+                        </div>
+                    </div>
+
+                    <div class="w-100 text-center mt-5">
+                        <a class="button gradient-bg" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+     <!--公司实力-->
+     <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="our-departments-wrap">
+                    <h2>Enterprise strength</h2>
+
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="our-departments-cont">
+                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                    <img src="images/blood-donation-2.png" alt="">
+
+                                    <h3>dust-free workshop</h3>
+                                </header>
+
+                                <div class="entry-content">
+                                    <p>The company has a vast dust-free workshop, which is used as a production base and a storage base for masks.</p>
+                                </div>
+
+                              
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="our-departments-cont">
+                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                    <img src="images/blood-sample-2.png" alt="">
+
+                                    <h3>advanced equipment</h3>
+                                </header>
+
+                                <div class="entry-content">
+                                    <p>The company has advanced imported production equipment and professional technical personnel.</p>
+                                </div>
+
+                               
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="our-departments-cont">
+                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                    <img src="images/stretcher.png" alt="">
+
+                                    <h3>Quality control</h3>
+                                </header>
+
+                                <div class="entry-content">
+                                    <p>Strict quality, pay attention to the implementation of product quality and brand engineering, put consumers in the first place.</p>
+                                </div>
+
+                               
+                            </div>
+                        </div>
+
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+     <!--实力详情-->
+     <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="services-tabs">
+                    <div class="tabs">
+                        <ul class="tabs-nav d-flex flex-wrap">
+                            <li class="tab-nav d-flex justify-content-center align-items-center" data-target="#tab_1">dust-free workshop</li>
+                            <li class="tab-nav d-flex justify-content-center align-items-center" data-target="#tab_2">  advanced equipment</li>
+                            <li class="tab-nav d-flex justify-content-center align-items-center" data-target="#tab_3">Quality control</li>
+                         </ul>
+
+                        <div class="tabs-container">
+                            <div id="tab_1" class="tab-content">
+                                  <h4>dust-free workshop</h4>
+                                  <p>The company has a vast dust-free workshop, which is used as a production base and a storage base for masks</p>
+                                 <p>.</p>
+                                <img src="http://mb--test.oss-cn-hangzhou.aliyuncs.com/service-tab-img1.jpg" width="100%" alt="">
+                                 <img src="http://mb--test.oss-cn-hangzhou.aliyuncs.com/service-tab-img2.jpg" width="100%" alt="">
+                                 <img src="http://mb--test.oss-cn-hangzhou.aliyuncs.com/service-tab-img3.jpg" width="100%" alt="">
+                              
+
+                              
+                            </div>
+
+                            <div id="tab_2" class="tab-content">
+                              
+
+                                <h4>advanced equipment</h4>
+                                
+                                <p>The company has advanced imported production equipment and professional technical personnel</p>
+                                 <p>.</p>
+                                <img src="http://mb--test.oss-cn-hangzhou.aliyuncs.com/service-tab-img4.jpg" width="100%" alt="">
+                                 <img src="http://mb--test.oss-cn-hangzhou.aliyuncs.com/service-tab-img5.jpg" width="100%" alt="">
+                             </div>
+
+                            <div id="tab_3" class="tab-content">
+                          
+
+                                <h4>Quality control</h4>
+
+                                <p>Strict quality, pay attention to the implementation of product quality and brand engineering, put consumers in the first place</p>
+                                 <p>.</p>
+                                <img src="http://mb--test.oss-cn-hangzhou.aliyuncs.com/service-tab-img6.jpg" width="100%" alt="">
+                                 
+                            </div>
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
 <!--
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
--->
+    <div class="med-history">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-12 col-lg-6">
+                    <h2>MedArt History</h2>
 
-        
-        
-    </body>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Curabitur ut augue finibus, luctus tortor at, ornare erat. Nulla facilisi. Sed est risus, laoreet et quam non, viverra accumsan leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Curabitur ut augue finibus, luctus tortor at, ornare erat. </p>
+
+                    <a class="d-inline-block button gradient-bg" href="#">Read More</a>
+                </div>
+
+                <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+                    <img class="responsive" src="images/about.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+    
+    
+    <div class="contact-page-short-boxes">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="contact-info h-100">
+                        <h2 class="d-flex align-items-center">Contact Info</h2>
+
+                        <ul class="p-0 m-0">
+                            <li><span>Addtress:</span>522 Xingguo Road, Hangzhou, Zhejiang, China</li>
+                            <li><span>Phone:</span>+86 139 8989 9787</li>
+                            <li><span>Email:</span>mr@meirong-medical.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mt-5 mt-lg-0">
+                    <div class="opening-hours h-100">
+                        <h2 class="d-flex align-items-center">Opening Hours</h2>
+
+                        <ul class="p-0 m-0">
+                            <li>Monday - Thursday <span>8.00 - 19.00</span></li>
+                            <li>Friday <span>8.00 - 18.30</span></li>
+                            <li>Saturday <span>9.30 - 17.00</span></li>
+                            <li>Sunday <span>9.30 - 15.00</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mt-5 mt-lg-0">
+                    <div class="emergency-box h-100">
+                        <h2 class="d-flex align-items-center">Emergency</h2>
+
+                        <div class="call-btn text-center">
+                            <a class="d-flex justify-content-center align-items-center button gradient-bg" href="#"><img src="images/emergency-call.png">+86 139 8989 9787</a>
+                        </div>
+
+                        <p>Emergency phone</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+
+
+
+
+
+
+
+    <div class="subscribe-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 offset-lg-2">
+                    <h2>CANGKANG</h2>
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="foot-about">
+                            <h2><a href="#"><img src="images/logo.png" alt=""></a></h2>
+
+                            <p>We are meiRong Medical Technology (hangzhou) Co., Ltd., the company has dozens of locomotives, which can meet the needs of large orders.</p>
+
+                        </div><!-- .foot-about -->
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+                        <div class="foot-contact">
+                            <h2>Contact</h2>
+
+                            <ul class="p-0 m-0">
+                                <li><span>Addtress:</span>522 Xingguo Road, Hangzhou, Zhejiang, China</li>
+                                <li><span>Phone:</span>+86 139 8989 9787</li>
+                                <li><span>Email:</span>mr@meirong-medical.com</li>
+                            </ul>
+                        </div>
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+                        <div class="foot-links">
+                            <h2>Usefull Links</h2>
+
+                            <ul class="p-0 m-0">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">Product</a></li>
+                                <li><a href="services.html">certificate</a></li>
+                             </ul>
+                        </div><!-- .foot-links -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .footer-widgets -->
+    </footer><!-- .site-footer -->
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='js/jquery.barfiller.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+</body>
 </html>
